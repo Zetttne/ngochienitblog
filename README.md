@@ -1,2 +1,0 @@
-# ngochienitblog
-ngochienitblog
