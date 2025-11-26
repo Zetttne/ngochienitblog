@@ -1,0 +1,58 @@
+{% extends "blog_app/base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="card shadow-sm">
+            <div class="card-body p-5">
+                <h1 class="mb-4"><i class="bi bi-person-circle"></i> Giới thiệu</h1>
+                
+                <div class="mb-4">
+                    <h3>Chào mừng đến với blog của tôi!</h3>
+                    <p class="lead">
+                        Xin chào, tôi là <strong>Nguyễn Ngọc Hiền</strong>, hiện đang làm việc với vai trò Data Processor.
+                    </p>
+                </div>
+
+                <div class="mb-4">
+                    <h4><i class="bi bi-journal-text"></i> Về blog này</h4>
+                    <p>
+                        Blog này được tạo ra để chia sẻ kiến thức, kinh nghiệm và những suy nghĩ của tôi về:
+                    </p>
+                    <ul>
+                        <li>Công nghệ thông tin và lập trình</li>
+                        <li>Xử lý và phân tích dữ liệu</li>
+                        <li>Kinh nghiệm làm việc thực tế</li>
+                        <li>Và nhiều chủ đề thú vị khác...</li>
+                    </ul>
+                </div>
+
+                <div class="mb-4">
+                    <h4><i class="bi bi-chat-dots"></i> Liên hệ</h4>
+                    <p>
+                        Nếu bạn có bất kỳ câu hỏi, góp ý hoặc muốn trao đổi về các chủ đề trên blog, 
+                        đừng ngần ngại liên hệ với tôi qua:
+                    </p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="https://facebook.com/hiennguyen" target="_blank" class="btn btn-primary">
+                            <i class="bi bi-facebook"></i> Facebook
+                        </a>
+                        <a href="https://youtube.com/@hiennguyen" target="_blank" class="btn btn-danger">
+                            <i class="bi bi-youtube"></i> YouTube
+                        </a>
+                    </div>
+                    <p class="mt-3 text-muted">
+                        <i class="bi bi-info-circle"></i> Mọi thắc mắc vui lòng liên hệ Hiền Data để được hỗ trợ
+                    </p>
+                </div>
+
+                <div class="alert alert-info">
+                    <i class="bi bi-lightbulb"></i> 
+                    <strong>Lưu ý:</strong> Blog này được xây dựng bằng Django và MySQL, 
+                    là một dự án cá nhân nhằm chia sẻ kiến thức và kinh nghiệm.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
